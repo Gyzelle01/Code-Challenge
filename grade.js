@@ -1,3 +1,6 @@
+//Q1: Student Grade Generator (Toy Problem)
+// Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
+
 function calculateGrade(mark) {
     if (mark > 79) {
         return 'A';
@@ -11,7 +14,7 @@ function calculateGrade(mark) {
         return 'E';
     }
 }
-
+// calculate grade and enter a valid mark between 0 and 100
 function main() {
     const mark = parseInt(prompt("Enter the student's mark (between 0 and 100):"));
     

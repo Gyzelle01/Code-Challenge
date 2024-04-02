@@ -1,7 +1,12 @@
+//Q3: Net Salary Calculator (Toy Problem)
+// Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
+
+NB: Use KRA, NHIF, and NSSF values provided in the link below. 
 function calculateNetSalary(basicSalary, benefits) {
     const taxThresholds = [0, 24000, 32333, 40333, 48333, 57000, 63000];
     const taxRates = [0.1, 0.15, 0.2, 0.25, 0.3, 0.32, 0.34];
-    const nssfRate = 0.06; // NSSF contribution rate
+    const nssfRate = 0.06;
+     // NSSF contribution rate
     const nhifRates = [0, 500, 750, 1000, 1500, 1700, 2000];
 
     const grossSalary = basicSalary + benefits;
